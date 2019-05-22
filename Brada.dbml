@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Brada" Class="BradaDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=PROF-MOHAMED;Initial Catalog=Brada;Integrated Security=True" SettingsObjectName="Brada3.Properties.Settings" SettingsPropertyName="BradaConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.TblShlal" Member="TblShlals">
+    <Type Name="TblShlal">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TBLNumber" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TBLSea" Member="TBLSeas">
+    <Type Name="TBLSea">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TBLNumber" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TBLRestaurant" Member="TBLRestaurants">
+    <Type Name="TBLRestaurant">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TBLNumber" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TBLCoffee" Member="TBLCoffees">
+    <Type Name="TBLCoffee">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TBLNumber" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TBL_Receive" Member="TBL_Receives">
+    <Type Name="TBL_Receive">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="recieve_num" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="recieve_Date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tbl_Import" Member="Tbl_Imports">
+    <Type Name="Tbl_Import">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="receipt_Code" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Import_Date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tbl_Item" Member="Tbl_Items">
+    <Type Name="Tbl_Item">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Item_Name" Type="System.String" DbType="NVarChar(70) NOT NULL" CanBeNull="false" />
+      <Column Name="Quantity_Num" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Packu_Price" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="Peices_Number" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Quantity_Integer" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Quantity_Int_Price" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Validation_Date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="TotalCost" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Association Name="Tbl_Item_Tbl_Order" Member="Tbl_Orders" ThisKey="ID" OtherKey="Item_ID" Type="Tbl_Order" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tbl_Daily_operation" Member="Tbl_Daily_operations">
+    <Type Name="Tbl_Daily_operation">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Item_Code" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Item_Name" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Quantity_Number" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Packu_Price" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="Total_Cost" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="Import_Date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="receipt_Code" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TBL_Numbers" Member="TBL_Numbers">
+    <Type Name="TBL_Number">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TBL_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Numbers" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TBLPlace_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="TBL_Number_item_order" Member="item_orders" ThisKey="ID" OtherKey="TBL_Num" Type="item_order" />
+      <Association Name="TBL_Number_item_order1" Member="item_order1s" ThisKey="ID" OtherKey="TBL_Num" Type="item_order1" />
+      <Association Name="TablePlace_TBL_Number" Member="TablePlace" ThisKey="TBLPlace_ID" OtherKey="ID" Type="TablePlace" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tbl_Order" Member="Tbl_Orders">
+    <Type Name="Tbl_Order">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Order_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Item_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Quantity" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Price" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Association Name="Tbl_Item_Tbl_Order" Member="Tbl_Item" ThisKey="Item_ID" OtherKey="ID" Type="Tbl_Item" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TablePlace" Member="TablePlaces">
+    <Type Name="TablePlace">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Tableplace" Member="Tableplace1" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="TablePlace_TBL_Number" Member="TBL_Numbers" ThisKey="ID" OtherKey="TBLPlace_ID" Type="TBL_Number" />
+    </Type>
+  </Table>
+  <Table Name="dbo.item_order" Member="item_orders">
+    <Type Name="item_order">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="item_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="order_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="total_cost" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="TBL_Num" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="discount_val" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Tax_val" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="final_cost" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="payment" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Association Name="TBL_Number_item_order" Member="TBL_Number" ThisKey="TBL_Num" OtherKey="ID" Type="TBL_Number" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tbl_Casheir_name" Member="Tbl_Casheir_names">
+    <Type Name="Tbl_Casheir_name">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Casheir" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.item_order" Member="item_order1s">
+    <Type Name="item_order1">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="item_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="order_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="total_cost" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="TBL_Num" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="discount_val" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Tax_val" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="final_cost" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="payment" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="TBL_Number_item_order1" Member="TBL_Number" ThisKey="TBL_Num" OtherKey="ID" Type="TBL_Number" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tbl_Casheir_Sales" Member="Tbl_Casheir_Sales">
+    <Type Name="Tbl_Casheir_Sale">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Item_Name" Type="System.String" DbType="NVarChar(60) NOT NULL" CanBeNull="false" />
+      <Column Name="Item_Price" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Function Name="dbo.del" Method="del">
+    <Parameter Name="_id" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.delinCoffee" Method="delinCoffee">
+    <Parameter Name="_id" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.delinRestaurant" Method="delinRestaurant">
+    <Parameter Name="_id" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.delinSea" Method="delinSea">
+    <Parameter Name="_id" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.delinShlal" Method="delinShlal">
+    <Parameter Name="_id" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.updateproduct3" Method="updateproduct3">
+    <Parameter Name="id_new" Type="System.Int32" DbType="Int" />
+    <Parameter Name="newname" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="newquantity" Type="System.Int32" DbType="Int" />
+    <Parameter Name="newQuantity_Part_Num" Type="System.Int32" DbType="Int" />
+    <Parameter Name="newcostprice" Type="System.Double" DbType="Float" />
+    <Parameter Name="newtotalcost" Type="System.Double" DbType="Float" />
+    <Parameter Name="newValidationdate" Type="System.DateTime" DbType="DateTime" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.update_Tbl_Item2" Method="update_Tbl_Item2">
+    <Parameter Name="id_new" Type="System.Int32" DbType="Int" />
+    <Parameter Name="newname" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="newQuantity_Part_Num" Type="System.Int32" DbType="Int" />
+    <Parameter Name="new_Packu_Price" Type="System.Double" DbType="Float" />
+    <Parameter Name="newtotalcost" Type="System.Double" DbType="Float" />
+    <Parameter Name="newValidationdate" Type="System.DateTime" DbType="DateTime" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.insert_tbl_Item" Method="insert_tbl_Item">
+    <Parameter Name="new_ITem_Name" Type="System.String" DbType="NVarChar(60)" />
+    <Parameter Name="quantit_Num" Type="System.Int32" DbType="Int" />
+    <Parameter Name="packu_price" Type="System.Double" DbType="Float" />
+    <Parameter Name="pieces_num" Type="System.Int32" DbType="Int" />
+    <Parameter Name="quantity_int" Type="System.Int32" DbType="Int" />
+    <Parameter Name="date" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="totalcost" Type="System.Double" DbType="Float" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.insert_tbl_Item2" Method="insert_tbl_Item2">
+    <Parameter Name="new_ITem_Name" Type="System.String" DbType="NVarChar(60)" />
+    <Parameter Name="quantit_Num" Type="System.Int32" DbType="Int" />
+    <Parameter Name="packu_price" Type="System.Double" DbType="Float" />
+    <Parameter Name="pieces_num" Type="System.Int32" DbType="Int" />
+    <Parameter Name="quantity_int" Type="System.Int32" DbType="Int" />
+    <Parameter Name="date" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="totalcost" Type="System.Double" DbType="Float" />
+    <Parameter Name="Quantity_Int_Price" Parameter="quantity_Int_Price" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.update_Tbl_Item3" Method="update_Tbl_Item3">
+    <Parameter Name="id_new" Type="System.Int32" DbType="Int" />
+    <Parameter Name="newname" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="newQuantity_Part_Num" Type="System.Int32" DbType="Int" />
+    <Parameter Name="new_Packu_Price" Type="System.Double" DbType="Float" />
+    <Parameter Name="newPeices_Num" Type="System.Int32" DbType="Int" />
+    <Parameter Name="newQuantity_Int" Type="System.Int32" DbType="Int" />
+    <Parameter Name="newQuantity_Int_Price" Type="System.Int32" DbType="Int" />
+    <Parameter Name="newValidationdate" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="newtotalcost" Type="System.Double" DbType="Float" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.insert_tbl_Import" Method="insert_tbl_Import">
+    <Parameter Name="new_receipt_code" Type="System.Int32" DbType="Int" />
+    <Parameter Name="new_import_date" Type="System.DateTime" DbType="DateTime" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.insert_Daily_Operation2" Method="insert_Daily_Operation2">
+    <Parameter Name="newItem_Code" Type="System.Int32" DbType="Int" />
+    <Parameter Name="new_ITem_Name" Type="System.String" DbType="NVarChar(60)" />
+    <Parameter Name="quantit_Num" Type="System.Int32" DbType="Int" />
+    <Parameter Name="packu_price" Type="System.Double" DbType="Float" />
+    <Parameter Name="totalcost" Type="System.Double" DbType="Float" />
+    <Parameter Name="Import_date" Parameter="import_date" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="receipt_Code" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.update_Tbl_Daily" Method="update_Tbl_Daily">
+    <Parameter Name="id_new" Type="System.Int32" DbType="Int" />
+    <Parameter Name="newname" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="newQuantityNum" Type="System.Int32" DbType="Int" />
+    <Parameter Name="new_Packu_Price" Type="System.Double" DbType="Float" />
+    <Parameter Name="newtotalcost" Type="System.Double" DbType="Float" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.delin_Daily_OPeration" Method="delin_Daily_OPeration">
+    <Parameter Name="_id" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Subtract_Update_Tbl_Item_Daily" Method="Subtract_Update_Tbl_Item_Daily">
+    <Parameter Name="id_new" Type="System.Int32" DbType="Int" />
+    <Parameter Name="newQuantity_Num" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.MyProcedure" Method="MyProcedure">
+    <Parameter Name="Name" Parameter="name" Type="System.String" DbType="NVarChar(100)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.MyProcedure1" Method="MyProcedure1">
+    <Parameter Name="item_Code" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Name" Parameter="name" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="cel1" Type="System.Int32" DbType="Int" />
+    <Parameter Name="cel2" Type="System.Double" DbType="Float" />
+    <Parameter Name="cel3" Type="System.Double" DbType="Float" />
+    <Parameter Name="Daate" Parameter="daate" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="receipt_num" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.update_Addition_Tbl_Daily" Method="update_Addition_Tbl_Daily">
+    <Parameter Name="id_new" Type="System.Int32" DbType="Int" />
+    <Parameter Name="newname" Type="System.String" DbType="NVarChar(60)" />
+    <Parameter Name="newQuantityNum" Type="System.Int32" DbType="Int" />
+    <Parameter Name="new_Packu_Price" Type="System.Double" DbType="Float" />
+    <Parameter Name="newtotalcost" Type="System.Double" DbType="Float" />
+    <Parameter Name="new_Import_Date" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="new_receipt_Code" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.ins_item_order" Method="ins_item_order">
+    <Parameter Name="id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="itemid" Type="System.Int32" DbType="Int" />
+    <Parameter Name="o_id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="total_cost" Type="System.Double" DbType="Float" />
+    <Parameter Name="d" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="tbl_num" Type="System.Int32" DbType="Int" />
+    <Parameter Name="disc_val" Type="System.Double" DbType="Float" />
+    <Parameter Name="tax" Type="System.Double" DbType="Float" />
+    <Parameter Name="finalcost" Type="System.Double" DbType="Float" />
+    <Parameter Name="pay" Type="System.String" DbType="NChar(10)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.ins_order" Method="ins_order1">
+    <Parameter Name="or_id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="item_id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="count" Type="System.Int32" DbType="Int" />
+    <Parameter Name="price" Type="System.Double" DbType="Float" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.ins_tbl_num" Method="ins_tbl_num">
+    <Parameter Name="id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="tblid" Type="System.Int32" DbType="Int" />
+    <Parameter Name="num" Type="System.Int32" DbType="Int" />
+    <Parameter Name="place_id" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.del_tbl_num" Method="del_tbl_num">
+    <Parameter Name="id" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.join_tables_report1" Method="join_tables_report1">
+    <ElementType Name="join_tables_report1Result">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Item_Name" Type="System.String" DbType="NVarChar(60) NOT NULL" CanBeNull="false" />
+      <Column Name="Item_Price" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="ID1" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="item_id" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="order_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="total_cost" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="TBL_Num" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="discount_val" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Tax_val" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="final_cost" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="payment" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

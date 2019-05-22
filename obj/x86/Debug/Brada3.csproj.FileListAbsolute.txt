@@ -1,0 +1,68 @@
+c:\users\mohamed atef\documents\visual studio 2010\Projects\Brada3\Brada3\bin\Debug\Brada3.exe
+c:\users\mohamed atef\documents\visual studio 2010\Projects\Brada3\Brada3\bin\Debug\Brada3.pdb
+c:\users\mohamed atef\documents\visual studio 2010\Projects\Brada3\Brada3\obj\x86\Debug\Brada3.Items.resources
+c:\users\mohamed atef\documents\visual studio 2010\Projects\Brada3\Brada3\obj\x86\Debug\Brada3.Properties.Resources.resources
+c:\users\mohamed atef\documents\visual studio 2010\Projects\Brada3\Brada3\obj\x86\Debug\Brada3.csproj.GenerateResource.Cache
+c:\users\mohamed atef\documents\visual studio 2010\Projects\Brada3\Brada3\obj\x86\Debug\Brada3.exe
+c:\users\mohamed atef\documents\visual studio 2010\Projects\Brada3\Brada3\obj\x86\Debug\Brada3.pdb
+c:\users\mohamed atef\documents\visual studio 2010\Projects\Brada3\Brada3\obj\x86\Debug\Brada3.Menu.resources
+c:\users\mohamed atef\documents\visual studio 2010\Projects\Brada3\Brada3\bin\Debug\Brada3.exe.config
+c:\users\mohamed atef\documents\visual studio 2010\Projects\Brada3\Brada3\obj\x86\Debug\Brada3.csprojResolveAssemblyReference.cache
+c:\users\mohamed atef\documents\visual studio 2010\Projects\Brada3\Brada3\obj\x86\Debug\Brada3.Checks.resources
+c:\users\mohamed atef\documents\visual studio 2010\Projects\Brada3\Brada3\obj\x86\Debug\Brada3.DailyOperations.resources
+c:\users\mohamed atef\documents\visual studio 2010\Projects\Brada3\Brada3\obj\x86\Debug\Brada3.LogIN.resources
+c:\users\mohamed atef\documents\visual studio 2010\Projects\Brada3\Brada3\obj\x86\Debug\Brada3.Table_Choose.resources
+C:\Users\Mohamed Atef\documents\visual studio 2010\Projects\Brada3\Brada3\obj\x86\Debug\Brada3.Print_receipt.resources
+C:\Users\Mohamed Atef\documents\visual studio 2010\Projects\Brada3\Brada3\obj\x86\Debug\RdlCompile.cache
+C:\Users\Mohamed Atef\documents\visual studio 2010\Projects\Brada3\Brada3\obj\x86\Debug\RdlCompile.compiled
+G:\Mine\My Developed Codes\Brada3\Brada3\bin\Debug\Brada3.exe.config
+G:\Mine\My Developed Codes\Brada3\Brada3\obj\x86\Debug\Brada3.exe
+G:\Mine\My Developed Codes\Brada3\Brada3\obj\x86\Debug\Brada3.pdb
+G:\Mine\My Developed Codes\Brada3\Brada3\bin\Debug\Brada3.exe
+G:\Mine\My Developed Codes\Brada3\Brada3\bin\Debug\Brada3.pdb
+G:\Mine\My Developed Codes\Brada3\Brada3\obj\x86\Debug\Brada3.csprojResolveAssemblyReference.cache
+G:\Mine\My Developed Codes\Brada3\Brada3\obj\x86\Debug\Brada3.Print_receipt.resources
+G:\Mine\My Developed Codes\Brada3\Brada3\obj\x86\Debug\Brada3.Table_Choose.resources
+G:\Mine\My Developed Codes\Brada3\Brada3\obj\x86\Debug\Brada3.Checks.resources
+G:\Mine\My Developed Codes\Brada3\Brada3\obj\x86\Debug\Brada3.DailyOperations.resources
+G:\Mine\My Developed Codes\Brada3\Brada3\obj\x86\Debug\Brada3.Items.resources
+G:\Mine\My Developed Codes\Brada3\Brada3\obj\x86\Debug\Brada3.LogIN.resources
+G:\Mine\My Developed Codes\Brada3\Brada3\obj\x86\Debug\Brada3.Menu.resources
+G:\Mine\My Developed Codes\Brada3\Brada3\obj\x86\Debug\Brada3.Properties.Resources.resources
+G:\Mine\My Developed Codes\Brada3\Brada3\obj\x86\Debug\Brada3.csproj.GenerateResource.Cache
+G:\Mine\My Developed Codes\Brada3\Brada3\obj\x86\Debug\RdlCompile.cache
+G:\Mine\My Developed Codes\Brada3\Brada3\obj\x86\Debug\RdlCompile.compiled
+F:\Mine\My Developed Codes\Brada3\Brada3\bin\Debug\Brada3.exe.config
+F:\Mine\My Developed Codes\Brada3\Brada3\obj\x86\Debug\Brada3.exe
+F:\Mine\My Developed Codes\Brada3\Brada3\obj\x86\Debug\Brada3.pdb
+F:\Mine\My Developed Codes\Brada3\Brada3\bin\Debug\Brada3.exe
+F:\Mine\My Developed Codes\Brada3\Brada3\bin\Debug\Brada3.pdb
+F:\Mine\My Developed Codes\Brada3\Brada3\obj\x86\Debug\Brada3.csprojResolveAssemblyReference.cache
+F:\Mine\My Developed Codes\Brada3\Brada3\obj\x86\Debug\Brada3.Print_receipt.resources
+F:\Mine\My Developed Codes\Brada3\Brada3\obj\x86\Debug\Brada3.Table_Choose.resources
+F:\Mine\My Developed Codes\Brada3\Brada3\obj\x86\Debug\Brada3.Checks.resources
+F:\Mine\My Developed Codes\Brada3\Brada3\obj\x86\Debug\Brada3.DailyOperations.resources
+F:\Mine\My Developed Codes\Brada3\Brada3\obj\x86\Debug\Brada3.Items.resources
+F:\Mine\My Developed Codes\Brada3\Brada3\obj\x86\Debug\Brada3.LogIN.resources
+F:\Mine\My Developed Codes\Brada3\Brada3\obj\x86\Debug\Brada3.Menu.resources
+F:\Mine\My Developed Codes\Brada3\Brada3\obj\x86\Debug\Brada3.Properties.Resources.resources
+F:\Mine\My Developed Codes\Brada3\Brada3\obj\x86\Debug\Brada3.csproj.GenerateResource.Cache
+F:\Mine\My Developed Codes\Brada3\Brada3\obj\x86\Debug\RdlCompile.cache
+F:\Mine\My Developed Codes\Brada3\Brada3\obj\x86\Debug\RdlCompile.compiled
+D:\My Developed Codes\Brada3\Brada3\bin\Debug\Brada3.exe.config
+D:\My Developed Codes\Brada3\Brada3\obj\x86\Debug\Brada3.exe
+D:\My Developed Codes\Brada3\Brada3\obj\x86\Debug\Brada3.pdb
+D:\My Developed Codes\Brada3\Brada3\bin\Debug\Brada3.exe
+D:\My Developed Codes\Brada3\Brada3\bin\Debug\Brada3.pdb
+D:\My Developed Codes\Brada3\Brada3\obj\x86\Debug\Brada3.csprojResolveAssemblyReference.cache
+D:\My Developed Codes\Brada3\Brada3\obj\x86\Debug\Brada3.Print_receipt.resources
+D:\My Developed Codes\Brada3\Brada3\obj\x86\Debug\Brada3.Table_Choose.resources
+D:\My Developed Codes\Brada3\Brada3\obj\x86\Debug\Brada3.Checks.resources
+D:\My Developed Codes\Brada3\Brada3\obj\x86\Debug\Brada3.DailyOperations.resources
+D:\My Developed Codes\Brada3\Brada3\obj\x86\Debug\Brada3.Items.resources
+D:\My Developed Codes\Brada3\Brada3\obj\x86\Debug\Brada3.LogIN.resources
+D:\My Developed Codes\Brada3\Brada3\obj\x86\Debug\Brada3.Menu.resources
+D:\My Developed Codes\Brada3\Brada3\obj\x86\Debug\Brada3.Properties.Resources.resources
+D:\My Developed Codes\Brada3\Brada3\obj\x86\Debug\Brada3.csproj.GenerateResource.Cache
+D:\My Developed Codes\Brada3\Brada3\obj\x86\Debug\RdlCompile.cache
+D:\My Developed Codes\Brada3\Brada3\obj\x86\Debug\RdlCompile.compiled

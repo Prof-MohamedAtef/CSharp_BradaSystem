@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 18.625, 13.375" name="BradaDataClasses">
+  <DataContextMoniker Name="/BradaDataClassesDataContext" />
+  <nestedChildShapes>
+    <classShape Id="d7e373be-1727-4888-a456-9bfb4b91bdce" absoluteBounds="4.375, 0.5, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/BradaDataClassesDataContext/item_order" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4ed3e56a-0dba-45aa-a5f1-95b3cdf58f42" absoluteBounds="4.3900000000000006, 0.96, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1bb46ef1-c980-4ef5-b47f-96c5689e1fb4" absoluteBounds="4.75, 5.25, 2, 1.1939925130208327">
+      <DataClassMoniker Name="/BradaDataClassesDataContext/TablePlace" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d4c83367-74a1-4749-921a-790e18b10fbe" absoluteBounds="4.765, 5.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d78d59ba-7be2-4e3a-8743-45c8fc86cad7" absoluteBounds="0.75, 0.75, 2, 1.3862939453125">
+      <DataClassMoniker Name="/BradaDataClassesDataContext/Tbl_Casheir_Sale" />
+      <nestedChildShapes>
+        <elementListCompartment Id="21b27099-6a9a-4e0c-925e-543922764591" absoluteBounds="0.765, 1.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d7fb5599-5cc1-4acc-a8ea-f7b60bc1d8d1" absoluteBounds="4.75, 7.75, 2, 2.3478011067708344">
+      <DataClassMoniker Name="/BradaDataClassesDataContext/Tbl_Daily_operation" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d350b2e3-0fb6-4f8c-b9bb-5f75223da722" absoluteBounds="4.765, 8.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f82831d4-df36-4b43-9129-19a3025ec86a" absoluteBounds="7.75, 7.75, 2, 1.3862939453124996">
+      <DataClassMoniker Name="/BradaDataClassesDataContext/Tbl_Import" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d5507123-3f83-4634-9cc1-ea3669b51cf5" absoluteBounds="7.765, 8.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e3b3aeb7-213b-4ea4-97f9-313e52890d7d" absoluteBounds="9.5, 1, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/BradaDataClassesDataContext/TBL_Item_Price" />
+      <nestedChildShapes>
+        <elementListCompartment Id="937aaa0f-581e-4218-a142-f3478a433cfe" absoluteBounds="9.515, 1.46, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="364985a3-6cab-4075-b0db-f4413fd23c17" absoluteBounds="0.75, 10.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/BradaDataClassesDataContext/Tbl_login" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3b63be2e-e89e-4896-8ed8-a72cdd294d93" absoluteBounds="0.765, 11.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="613c1e44-c11e-457e-a8d7-88aaadffad82" absoluteBounds="10.75, 4.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/BradaDataClassesDataContext/TBL_Number" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f2e11375-e51f-4500-976d-12196bc78102" absoluteBounds="10.765, 5.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="989d5f22-b720-4849-9510-20de04512c7b" absoluteBounds="1.5, 5, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/BradaDataClassesDataContext/Tbl_Order" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a7c003c5-5779-4b80-a128-cb43d77a4405" absoluteBounds="1.5150000000000001, 5.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3ec86a70-8098-43f8-81b5-9876460f4060" absoluteBounds="6.75, 1.375, 2, 1.3862939453125003">
+      <DataClassMoniker Name="/BradaDataClassesDataContext/TBL_Receive" />
+      <nestedChildShapes>
+        <elementListCompartment Id="143f11f0-735e-4ada-b444-fb86dcbb2371" absoluteBounds="6.765, 1.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c220505f-f168-446b-9641-1b4ae6d0c2dc" absoluteBounds="10.75, 7.75, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/BradaDataClassesDataContext/TblAddItem" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b551e82e-f349-4bc2-8359-9010de1fb4a7" absoluteBounds="10.765, 8.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cf5c4502-2dae-463b-a839-f9762104ede4" absoluteBounds="7.75, 10.75, 2, 2.3478011067708344">
+      <DataClassMoniker Name="/BradaDataClassesDataContext/TBLCheck" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a0949a5a-b75c-4287-90d9-8cf281fbef4f" absoluteBounds="7.765, 11.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0267134e-a4a3-4c5a-aa6b-3a4cc1ac166b" absoluteBounds="1.5, 7.5, 2, 2.3478011067708344">
+      <DataClassMoniker Name="/BradaDataClassesDataContext/TblItem" />
+      <nestedChildShapes>
+        <elementListCompartment Id="db8d880b-91e5-4ca5-927f-225214d773d5" absoluteBounds="1.5150000000000001, 7.96, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="328d277c-2ed0-4a0e-a6b9-5679221fdfc2" absoluteBounds="7.5, 4.875, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/BradaDataClassesDataContext/TBLTable" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a986d036-22c9-40bd-a918-8cbd74f73b70" absoluteBounds="7.515, 5.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.15625 : 5); (3.15625 : 2.71559895833333); (4.375 : 2.71559895833333)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BradaDataClassesDataContext/Tbl_Order/Tbl_Order_item_order" />
+      <nodes>
+        <classShapeMoniker Id="989d5f22-b720-4849-9510-20de04512c7b" />
+        <classShapeMoniker Id="d7e373be-1727-4888-a456-9bfb4b91bdce" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.75 : 2.06814697265625); (9.5 : 2.06814697265625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/BradaDataClassesDataContext/TBL_Receive/TBL_Receive_TBL_Item_Price" />
+      <nodes>
+        <classShapeMoniker Id="3ec86a70-8098-43f8-81b5-9876460f4060" />
+        <classShapeMoniker Id="e3b3aeb7-213b-4ea4-97f9-313e52890d7d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.5 : 7.59375); (4.53125 : 7.59375); (4.53125 : 3.23240397135417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BradaDataClassesDataContext/TblItem/TblItem_item_order" />
+      <nodes>
+        <classShapeMoniker Id="0267134e-a4a3-4c5a-aa6b-3a4cc1ac166b" />
+        <classShapeMoniker Id="d7e373be-1727-4888-a456-9bfb4b91bdce" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.75 : 5.84699625651042); (7.5 : 5.84699625651042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/BradaDataClassesDataContext/TablePlace/TablePlace_TBLTable" />
+      <nodes>
+        <classShapeMoniker Id="1bb46ef1-c980-4ef5-b47f-96c5689e1fb4" />
+        <classShapeMoniker Id="328d277c-2ed0-4a0e-a6b9-5679221fdfc2" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="a4bfbb61-af2b-4c5d-a50b-0294aa408ce8" absoluteBounds="4.125, 10.625, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/BradaDataClassesDataContext/TBLCoffee" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c8341498-ef1a-4c08-b14e-aab02d74c557" absoluteBounds="4.14, 11.085, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a4f4d62c-d402-4efe-b48a-2c4810f91137" absoluteBounds="12.375, 3.375, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/BradaDataClassesDataContext/TBLRestaurant" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8c4f8ba8-b2dd-40ce-b7db-d50b33642189" absoluteBounds="12.39, 3.835, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f7ef0c5c-aa26-47b0-8f87-0349ddab6cff" absoluteBounds="16.375, 2.5, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/BradaDataClassesDataContext/TBLSea" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b4dc2a54-0862-41fd-9cbd-10d320b9e044" absoluteBounds="16.39, 2.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="21af862b-073a-4277-8174-4987096bf4e3" absoluteBounds="13.75, 0.875, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/BradaDataClassesDataContext/TblShlal" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4f5c667f-5a28-44cf-8935-f10844e3fee9" absoluteBounds="13.765, 1.335, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
